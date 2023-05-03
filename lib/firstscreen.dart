@@ -49,7 +49,7 @@ class FirstScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, '/fourth');//ssss
                 },
-                child: Text('Menuju Layar Keempat')),
+                child: Text('Menuju Layar Keempat dengan animasi')),
             SizedBox(
               height: 15,
             ),
