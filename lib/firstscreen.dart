@@ -47,7 +47,7 @@ class FirstScreen extends StatelessWidget {
             ),
             ElevatedButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/fourth');
+                  Navigator.pushNamed(context, '/fourth');//ssss
                 },
                 child: Text('Menuju Layar Keempat')),
             SizedBox(
