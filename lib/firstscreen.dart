@@ -82,7 +82,7 @@ class FirstScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, '/detail/2');
                 },
-                child: Text('test button2'))
+                child: Text('test button3'))
           ],
         ),
       ),
