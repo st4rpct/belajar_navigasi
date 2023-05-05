@@ -47,7 +47,7 @@ class FirstScreen extends StatelessWidget {
             ),
             ElevatedButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/fourth');//ssss
+                  Navigator.pushNamed(context, '/fourth'); //ssss
                 },
                 child: Text('Menuju Layar Keempat dengan animasi')),
             SizedBox(
@@ -55,7 +55,8 @@ class FirstScreen extends StatelessWidget {
             ),
             ElevatedButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/fifth', arguments: 'hai apa kabar');
+                  Navigator.pushNamed(context, '/fifth',
+                      arguments: 'hai apa kabar');
                 },
                 child: Text('Menuju Layar Kelima')),
             SizedBox(
@@ -73,7 +74,15 @@ class FirstScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, '/detail/2');
                 },
-                child: Text('Menuju Layar Detail Id 2'))
+                child: Text('Menuju Layar Detail Id 2')),
+            SizedBox(
+              height: 15,
+            ),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/detail/2');
+                },
+                child: Text('test button'))
           ],
         ),
       ),
