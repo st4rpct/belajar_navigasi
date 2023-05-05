@@ -74,15 +74,7 @@ class FirstScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(context, '/detail/2');
                 },
-                child: Text('Menuju Layar Detail Id 2')),
-            SizedBox(
-              height: 15,
-            ),
-            ElevatedButton(
-                onPressed: () {
-                  Navigator.pushNamed(context, '/detail/2');
-                },
-                child: Text('test button3'))
+                child: Text('Menuju Layar Detail Id 2'))
           ],
         ),
       ),
